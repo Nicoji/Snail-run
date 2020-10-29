@@ -7,56 +7,84 @@
 <body>
     <div class="container">
 
-        <div class="row">
+        <div class="game-board">
+            <div class="row player1">
 
-            <div class="offset-1 col-1"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
+                <div class="active-p1 col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 finish-line"></div>
 
+            </div>
+
+            <div class="row player2">
+
+                <div class="active-p2 col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 finish-line"></div>
+
+            </div>
+
+            <div class="row player3">
+
+                <div class="active-p3 col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 ceil"></div>
+                <div class="col-1 finish-line"></div>
+
+            </div>
+
+            <div class="row player4">
+
+                <div class="active-p4 col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 ceil last-line"></div>
+                <div class="col-1 finish-line last-line"></div>
+
+            </div>
         </div>
 
-        <div class="row">
+        <div class="dice"></div>
 
-            <div class="offset-1 col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-
+        <div class="text-center mt-5">
+            <button class="roll">Roll the dice</button>
         </div>
 
-        <div class="row">
-
-            <div class="offset-1 col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-            <div class="col-1 ceil"></div>
-
+        <div class="result text-center mt-4 d-none">
+            <p><span class="winner"></span> player won the game !</p>
         </div>
 
-        <div class="dice">
-
-        </div>
     </div>
 
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

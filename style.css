@@ -1,3 +1,54 @@
+.container {
+    margin-top: 50px;
+}
+
+.game-board {
+    background-color: rgb(235, 228, 219);
+    padding: 20px;
+}
+
 .ceil {
     border: 1px solid #000;
+    height: 30px;
+    margin-bottom: 10px;    
+    border-radius: 20px;
+}
+
+.finish-line {
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 15px;
+}
+
+.last-line {
+    margin-bottom: 0;
+}
+
+.dice {
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.result {
+    font-size: 20px;
+}
+
+.active-p1 {
+    background-color: red;
+}
+
+.active-p2 {
+    background-color: blue;
+}
+
+.active-p3 {
+    background-color: green;
+}
+
+.active-p4 {
+    background-color: yellow;
 }
