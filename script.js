@@ -1,0 +1,1 @@
+const dice = document.querySelector('.dice');
